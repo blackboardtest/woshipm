@@ -12,7 +12,7 @@ hubble.getXML('http://www.woshipm.com/feed', function (error, response, $) {
 
 			var title   = dom.find('title').text().trim();
 			var summary = dom.find('description').text().trim().substring(0, 50);
-			var content = dom.find('content\:encoded').text();
+			var content = dom.find('content\\:encoded').text();
 
 			var $ = cheerio.load(content);
 
