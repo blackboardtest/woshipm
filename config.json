@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "name": "人人都是产品经理",
+  "description": "人人都是产品经理",
+  "keywords": [
+    "产品"
+  ],
+  "interval": 10,
+  "author": {
+    "name": "vimrus",
+    "email": "vimrus.com@gmail.com",
+    "url": "https://github.com/vimrus"
+  },
+  "style": "title-image",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vimrus/woshipm"
+  },
+  "bugs": "https://github.com/vimrus/woshipm/issues",
+  "main": "index.js"
+}
